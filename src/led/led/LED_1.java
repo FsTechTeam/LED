@@ -37,6 +37,7 @@ public class LED_1 {
         boton.addComando(encender2);
         encender3.SetLed(l3);
         boton.addComando(encender3);
+        /*agregando boton1 al control*/
         control.addBoton(boton);
         /*comandos boton2*/
         ApagarLed apagarl1= new ApagarLed();
@@ -49,6 +50,7 @@ public class LED_1 {
         boton2.addComando(encenderl2);
         apagarl3.SetLed(l3);
         boton2.addComando(apagarl3);
+        /*agregando boton2 al control*/
         control.addBoton(boton2);
         /*ejecutando botones*/
         
