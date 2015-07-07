@@ -1,4 +1,4 @@
-package Led;
+package led.led;
 
 public interface Led {
 
