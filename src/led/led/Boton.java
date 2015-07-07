@@ -6,14 +6,18 @@ import java.util.Vector;
 public class Boton {
 
   public List<Comando> comandos;
-  public Vector  myComando;
-  public Vector  myControl;
     
 
   public void Presionar() {
+      
+      for (Comando comando : comandos) {
+          comando.ejecutar();
+      }
+      
   }
 
   public void addComando(Comando comando) {
+      this.comandos.add(comando);
   }
 
 }
