@@ -10,7 +10,8 @@ public class Control {
     public Vector  myBoton;
     public Vector  myAplicacion;
 
-  public void addBoton() {
+  public void addBoton(Boton boton) {
+      botones.add(boton);
   }
 
 }
