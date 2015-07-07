@@ -3,7 +3,8 @@ package led.led;
 
 public class ApagarLed extends Comando{
 
-  public void Ejecutar() {
+  @Override
+  public void ejecutar() {
       this.led.apagar();
   }
 

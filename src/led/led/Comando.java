@@ -10,8 +10,7 @@ public abstract class Comando {
     public Vector  myLed;
     public Vector  myBoton;
     
-
-  public void SetLed(Led led) {
-  }
+public abstract void ejecutar();
+ public abstract void SetLed(Led led);
 
 }

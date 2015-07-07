@@ -3,7 +3,8 @@ package led.led;
 
 public class EncederLed extends Comando{
 
-  public void Ejecutar() {
+  @Override
+  public void ejecutar() {
       this.led.Encender();
   }
 
